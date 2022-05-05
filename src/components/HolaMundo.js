@@ -13,3 +13,10 @@ export default function HolaMundo(){
         </h2>
    </div>);
 }
+//recordemos que un fichero no puede tener dos export "defaults" solo uno
+export function AdiosMundo(){
+
+    return(<div>
+        <h3>Adios</h3>
+    </div>);
+}
