@@ -7,12 +7,18 @@ import Saludar from "./components/Saludar";
 
 
 function App() {
+  const user= {
+        nombre: "pedro antonello",
+        edad: 76,
+        color: "Azul"
+  }
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-      <Saludar name="Julian Macarron"/>
-      <Saludar name="otra persona"/>
+      
+      <Saludar userInfo={user}/>
+
      
       
       </header>

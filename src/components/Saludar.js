@@ -8,7 +8,7 @@ export default function Saludar(props){
         <div>
             <h2>
                 
-                Hola {props.name}
+                Hola {props.userInfo.name}, {props.userInfo.edad}, {props.userInfo.color} 
             </h2>
         </div>
     );
